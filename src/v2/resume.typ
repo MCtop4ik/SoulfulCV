@@ -6,7 +6,7 @@
 #show heading.where(level: 4): set text(size: 11pt, style: "italic")
 
 #set page(
-  margin: (top: 0cm, left: 0cm, right: 0cm, bottom: 1.5cm),
+  margin: (top: 0cm, left: 0cm, right: 0cm, bottom: 0.9cm),
   background: place(
     top + left,
     rect(

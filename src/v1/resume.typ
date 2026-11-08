@@ -14,7 +14,7 @@
 )
 
 #set page(
-  footer-descent: 20%,
+  footer-descent: 5%,
   footer: [
     #align(center)[
       Made with
