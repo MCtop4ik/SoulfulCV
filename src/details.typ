@@ -1,4 +1,5 @@
 #import "@preview/sicons:16.0.0": *
+#import "styles.typ" : *
 
 #metadata("Premade icons for contacts")
 #let contacts_icons = (
@@ -32,7 +33,7 @@
 #let nickname(str) = [\@#str]
 
 #let make_contact_line = (icon, desc) => {
-  [#box(baseline: 0.25em, icon) #h(0.04em) #text(fill: rgb("#414cc8").darken(40%))[#desc]]
+  [#box(baseline: 0.25em, icon) #h(0.04em) #text(fill: main_color.darken(40%))[#desc]]
 }
 
 #let custom-tag(label, color) = {
@@ -47,4 +48,4 @@
   )
 }
 
-#let lavander-tag(label) = custom-tag(label, rgb("#414cc8"))
+#let lavander-tag(label) = custom-tag(label, main_color)
