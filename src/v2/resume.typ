@@ -1,13 +1,12 @@
-#import "resume-data.typ": *
+#import "../resume-data.typ": *
+#import "../common-styles.typ": *
 #import "styles.typ": *
-
-#let bg_color = rgb("#f7f4fc");
 
 #show heading.where(level: 2): set text(fill: main_color)
 #show heading.where(level: 4): set text(size: 11pt, style: "italic")
 
 #set page(
-  margin: (top: 0cm, left: 0cm, right: 0cm, bottom: 1.5cm),
+  margin: (top: 0cm, left: 0cm, right: 0cm, bottom: 0.9cm),
   background: place(
     top + left,
     rect(
@@ -19,7 +18,7 @@
   footer: [
     #align(center)[
       Made with
-      #box(move(dy: 0.15em, image("./../assets/love.png", height: 0.9em)))
+      #box(move(dy: 0.15em, image("./../../assets/love.png", height: 0.9em)))
       on Typst, no AI used. #link("https://github.com/MCtop4ik/resume", text(fill: main_color)[Source Code.])
     ]
   ],
