@@ -7,4 +7,4 @@
 ![Пример резюме](exports/resume.svg)
 
 ## Второй вариант
-![Пример резюме](exports/resume-v2.svg)
+![Пример резюме](exports/v2/resume.svg)

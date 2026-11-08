@@ -57,10 +57,12 @@
   grid.cell(
     inset: (left: 1em, top: 2em, bottom: 1em, right: 1em),
   )[
-    == Кто я такой?
+    == Обо мне
     #about_me
+
     == Проекты
     #projects
+    
     == Достижения
     #achievements
   ],
