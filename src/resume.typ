@@ -1,12 +1,13 @@
 #import "resume-data.typ": *
+#import "styles.typ" : *
 
+#show heading.where(level: 2): set text(fill: main_color)
 #show heading.where(level: 4): set text(size: 11pt, style: "italic")
-#show heading.where(level: 2): set text(fill: rgb("#414cc8"))
 
 #set page(margin: 0.67cm)
 
 #set document(
-  title: text(fill: rgb("#1e0039"))[Арсений Захаров],
+  title: text(fill: header_color)[Арсений Захаров],
   author: "Арсений Захаров",
   keywords: ("Резюме", "Разработка", "Проекты", "Стартапы"),
   date: datetime(day: 11, month: 09, year: 2026),
@@ -18,7 +19,7 @@
     #align(center)[
       Made with
       #box(move(dy: 0.15em, image("./../assets/love.png", height: 0.9em)))
-      on Typst, no AI used. #link("https://github.com/MCtop4ik/resume", text(fill: rgb("#414cc8"))[Source Code.])
+      on Typst, no AI used. #link("https://github.com/MCtop4ik/resume", text(fill: main_color)[Source Code.])
     ]
   ],
 )
