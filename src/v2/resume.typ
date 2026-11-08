@@ -1,7 +1,6 @@
 #import "../resume-data.typ": *
-#import "../common-styles.typ" : *
-
-#let bg_color = rgb("#f7f4fc");
+#import "../common-styles.typ": *
+#import "styles.typ": *
 
 #show heading.where(level: 2): set text(fill: main_color)
 #show heading.where(level: 4): set text(size: 11pt, style: "italic")

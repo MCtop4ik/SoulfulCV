@@ -75,7 +75,7 @@
   #lavander-tag("Nglog")  #lavander-tag("Gitlab CI/CD")
   #lavander-tag("Benchmarking") \
   Разработал нагрузочный testbench на C++23/Asio для сравнения алгоритмов балансировки. Возможность загрузки профилей нагрузки в YAML формате совместимым с k6s, виртуальные TCP-сессии, сбор latency.
-  Реализованы метрики RPS, p50/p99, imbalance через коэффициент Джини, migration cost. Сделал деплой через Docker. Настроил CI/CD GitLab pipeline для запуска testbench. Построил бенчмарки для разных профилей нагрузки.   Управлял командой из 5 человек: распределял задачи, координировал работу и контролировал сроки. 
+  Реализованы метрики RPS, p50/p99, imbalance через коэффициент Джини, migration cost. Сделал деплой через Docker. Настроил CI/CD GitLab pipeline для запуска testbench. Построил бенчмарки для разных профилей нагрузки.   Управлял командой из 5 человек: распределял задачи, координировал работу и контролировал сроки.
 
   ==== URL Shortener | Backend Rust | PET-проект
   #lavander-tag("Rust") #lavander-tag("Axum") #lavander-tag("PostgreSQL")
