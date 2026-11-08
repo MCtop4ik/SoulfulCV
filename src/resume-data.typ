@@ -70,7 +70,7 @@
 #metadata("Projects")
 #let projects = [
 
-  ==== L4 Load Balancer | Backend C++ | Практика Avito
+  ==== L4 Load Balancer | Lead, Backend C++ | Практика Avito
   #lavander-tag("C++23") #lavander-tag("Asio")
   #lavander-tag("Nglog")  #lavander-tag("Gitlab CI/CD")
   #lavander-tag("Benchmarking") \
