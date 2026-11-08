@@ -1,5 +1,5 @@
-#import "resume-data.typ": *
-#import "styles.typ": *
+#import "../resume-data.typ": *
+#import "../common-styles.typ" : *
 
 #let bg_color = rgb("#f7f4fc");
 
@@ -19,7 +19,7 @@
   footer: [
     #align(center)[
       Made with
-      #box(move(dy: 0.15em, image("./../assets/love.png", height: 0.9em)))
+      #box(move(dy: 0.15em, image("./../../assets/love.png", height: 0.9em)))
       on Typst, no AI used. #link("https://github.com/MCtop4ik/resume", text(fill: main_color)[Source Code.])
     ]
   ],

@@ -1,5 +1,5 @@
 #import "@preview/sicons:16.0.0": *
-#import "styles.typ" : *
+#import "common-styles.typ" : *
 
 #metadata("Premade icons for contacts")
 #let contacts_icons = (
