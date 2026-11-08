@@ -17,7 +17,7 @@
   footer: [
     #align(center)[
       Made with
-      #box(move(dy: 0.15em, image("assets/love.png", height: 0.9em)))
+      #box(move(dy: 0.15em, image("./../assets/love.png", height: 0.9em)))
       on Typst, no AI used. #link("https://github.com/MCtop4ik/resume", text(fill: rgb("#414cc8"))[Source Code.])
     ]
   ],
