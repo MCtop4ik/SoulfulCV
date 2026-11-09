@@ -19,7 +19,7 @@
     #align(center)[
       Made with
       #box(move(dy: 0.15em, image("./../../assets/love.png", height: 0.9em)))
-      on Typst, no AI used. #link("https://github.com/MCtop4ik/resume", text(fill: main_color)[Source Code.])
+      on Typst, no AI used. #link("https://github.com/MCtop4ik/SoulfulCV", text(fill: main_color)[Source Code.])
     ]
   ],
 )
