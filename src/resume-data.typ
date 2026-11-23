@@ -1,7 +1,7 @@
 #import "details.typ": *
 
 #metadata("Pretending position")
-#let role = "Intern Backend Developer"
+#let role = "Backend Developer"
 
 #metadata("About me")
 #let about_me = [
