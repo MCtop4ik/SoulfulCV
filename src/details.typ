@@ -40,8 +40,8 @@
   set text(size: 0.8em)
   box(
     label,
-    radius: 5pt,
-    inset: (x: 0.4em),
+    radius: 0.1pt,
+    inset: (x: 0.5em),
     outset: (y: 0.4em),
     stroke: 0.6pt + color,
     fill: color.lighten(80%),
